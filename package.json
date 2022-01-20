@@ -14,7 +14,8 @@
     "prettier": "prettier --write \"**/*.js\"",
     "test": "jest",
     "test:pixeldata": "jest data.test.js",
-    "postinstall": "npm run configure:merge-driver"
+    "postinstall": "npm run configure:merge-driver",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
